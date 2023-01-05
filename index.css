@@ -1,0 +1,29 @@
+.clickable {
+    
+}
+.clickable:hover {
+    transform: scale(1.01);
+}
+.clickable.singing, .clickable:active {
+    transform: rotate(0);
+    animation: jiggle 0.25s infinite;
+}
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(0);
+    }
+    33% {
+        transform: rotate(4deg);
+    }
+    66% {
+        transform: rotate(-4deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.lion {
+    width: 100px;
+}
