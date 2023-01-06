@@ -1,5 +1,5 @@
-.clickable {
-    
+.clickable, .noselect {
+    user-select: none;
 }
 .clickable:hover {
     transform: scale(1.01);
@@ -14,10 +14,10 @@
         transform: rotate(0);
     }
     33% {
-        transform: rotate(4deg);
+        transform: rotate(10deg);
     }
     66% {
-        transform: rotate(-4deg);
+        transform: rotate(-10deg);
     }
     100% {
         transform: rotate(0);
