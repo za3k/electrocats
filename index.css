@@ -9,6 +9,19 @@
     animation: jiggle 0.25s infinite;
 }
 
+body {
+    background-color: #643E60;
+}
+p, p a {
+    color: white;
+}
+
+.note {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
 @keyframes jiggle {
     0% {
         transform: rotate(0);
